@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/ # <-- محیط مجازی
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.pytest_cache/
+nosetests.xml
+coverage.xml
+htmlcov/
+.ipynb_checkpoints
+.mypy_cache/
+.dmypy.json
+.ruff_cache/
+.vscode/ # <-- تنظیمات VS Code (اختیاری، اما توصیه می‌شود برای پروژه‌های رزومه که تنظیمات شخصی شما را لو ندهد)
+
+# Django
+*.log
+*.pot
+*.mo
+*.po
+media/ # اگر فایل‌های آپلودی دارید
+db.sqlite3 # <-- دیتابیس لوکال شما
+
+# Django specific to production/static
+staticfiles/ # <-- پوشه‌ای که collectstatic ایجاد می‌کند
+.env # اگر فایل متغیرهای محیطی دارید
+
+# OS and Editor
+.DS_Store # macOS specific
+.idea/ # PyCharm specific
+*.sublime-project
+*.sublime-workspace
